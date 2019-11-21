@@ -1,0 +1,56 @@
+c:\users\yves\documents\visual studio 2015\Projects\SuiviEtudiants\SuiviEtudiants\bin\Debug\SuiviEtudiants.exe.config
+c:\users\yves\documents\visual studio 2015\Projects\SuiviEtudiants\SuiviEtudiants\bin\Debug\SuiviEtudiants.exe
+c:\users\yves\documents\visual studio 2015\Projects\SuiviEtudiants\SuiviEtudiants\bin\Debug\SuiviEtudiants.pdb
+c:\users\yves\documents\visual studio 2015\Projects\SuiviEtudiants\SuiviEtudiants\obj\Debug\SuiviEtudiants.csprojResolveAssemblyReference.cache
+c:\users\yves\documents\visual studio 2015\Projects\SuiviEtudiants\SuiviEtudiants\obj\Debug\SuiviEtudiantsUI.g.cs
+c:\users\yves\documents\visual studio 2015\Projects\SuiviEtudiants\SuiviEtudiants\obj\Debug\App.g.cs
+c:\users\yves\documents\visual studio 2015\Projects\SuiviEtudiants\SuiviEtudiants\obj\Debug\SuiviEtudiants_MarkupCompile.cache
+c:\users\yves\documents\visual studio 2015\Projects\SuiviEtudiants\SuiviEtudiants\obj\Debug\SuiviEtudiants_MarkupCompile.lref
+c:\users\yves\documents\visual studio 2015\Projects\SuiviEtudiants\SuiviEtudiants\obj\Debug\SuiviEtudiantsUI.baml
+c:\users\yves\documents\visual studio 2015\Projects\SuiviEtudiants\SuiviEtudiants\obj\Debug\SuiviEtudiants.g.resources
+c:\users\yves\documents\visual studio 2015\Projects\SuiviEtudiants\SuiviEtudiants\obj\Debug\SuiviEtudiants.Properties.Resources.resources
+c:\users\yves\documents\visual studio 2015\Projects\SuiviEtudiants\SuiviEtudiants\obj\Debug\SuiviEtudiants.csproj.GenerateResource.Cache
+c:\users\yves\documents\visual studio 2015\Projects\SuiviEtudiants\SuiviEtudiants\obj\Debug\SuiviEtudiants.exe
+c:\users\yves\documents\visual studio 2015\Projects\SuiviEtudiants\SuiviEtudiants\obj\Debug\SuiviEtudiants.pdb
+C:\Users\Yves\documents\visual studio 2015\Projects\SuiviEtudiants\SuiviEtudiants\obj\Debug\frmLoggin.g.cs
+C:\Users\Yves\documents\visual studio 2015\Projects\SuiviEtudiants\SuiviEtudiants\obj\Debug\frmLoggin.baml
+D:\SuiviEtudiants\SuiviEtudiants\bin\Debug\SuiviEtudiants.exe.config
+D:\SuiviEtudiants\SuiviEtudiants\obj\Debug\SuiviEtudiants.exe
+D:\SuiviEtudiants\SuiviEtudiants\obj\Debug\SuiviEtudiants.pdb
+F:\Développement\Nouveaux fichiers LMS Anjou\420-PR1-ID\SuiviEtudiants\SuiviEtudiants\bin\Debug\SuiviEtudiants.exe.config
+F:\Développement\Nouveaux fichiers LMS Anjou\420-PR1-ID\SuiviEtudiants\SuiviEtudiants\obj\Debug\SuiviEtudiants.exe
+F:\Développement\Nouveaux fichiers LMS Anjou\420-PR1-ID\SuiviEtudiants\SuiviEtudiants\obj\Debug\SuiviEtudiants.pdb
+F:\Développement\Nouveaux fichiers LMS Anjou\420-PR1-ID\SuiviEtudiants\SuiviEtudiants\bin\Debug\SuiviEtudiants.exe
+F:\Développement\Nouveaux fichiers LMS Anjou\420-PR1-ID\SuiviEtudiants\SuiviEtudiants\bin\Debug\SuiviEtudiants.pdb
+F:\Développement\Nouveaux fichiers LMS Anjou\420-PR1-ID\SuiviEtudiants\SuiviEtudiants\obj\Debug\SuiviEtudiants.csprojResolveAssemblyReference.cache
+F:\Développement\Nouveaux fichiers LMS Anjou\420-PR1-ID\SuiviEtudiants\SuiviEtudiants\obj\Debug\frmLoggin.g.cs
+F:\Développement\Nouveaux fichiers LMS Anjou\420-PR1-ID\SuiviEtudiants\SuiviEtudiants\obj\Debug\frmNouvelEtudiant.g.cs
+F:\Développement\Nouveaux fichiers LMS Anjou\420-PR1-ID\SuiviEtudiants\SuiviEtudiants\obj\Debug\SuiviEtudiantsUI.g.cs
+F:\Développement\Nouveaux fichiers LMS Anjou\420-PR1-ID\SuiviEtudiants\SuiviEtudiants\obj\Debug\App.g.cs
+F:\Développement\Nouveaux fichiers LMS Anjou\420-PR1-ID\SuiviEtudiants\SuiviEtudiants\obj\Debug\SuiviEtudiants_MarkupCompile.cache
+F:\Développement\Nouveaux fichiers LMS Anjou\420-PR1-ID\SuiviEtudiants\SuiviEtudiants\obj\Debug\SuiviEtudiants_MarkupCompile.lref
+F:\Développement\Nouveaux fichiers LMS Anjou\420-PR1-ID\SuiviEtudiants\SuiviEtudiants\obj\Debug\frmLoggin.baml
+F:\Développement\Nouveaux fichiers LMS Anjou\420-PR1-ID\SuiviEtudiants\SuiviEtudiants\obj\Debug\frmNouvelEtudiant.baml
+F:\Développement\Nouveaux fichiers LMS Anjou\420-PR1-ID\SuiviEtudiants\SuiviEtudiants\obj\Debug\SuiviEtudiantsUI.baml
+F:\Développement\Nouveaux fichiers LMS Anjou\420-PR1-ID\SuiviEtudiants\SuiviEtudiants\obj\Debug\SuiviEtudiants.g.resources
+F:\Développement\Nouveaux fichiers LMS Anjou\420-PR1-ID\SuiviEtudiants\SuiviEtudiants\obj\Debug\SuiviEtudiants.Properties.Resources.resources
+F:\Développement\Nouveaux fichiers LMS Anjou\420-PR1-ID\SuiviEtudiants\SuiviEtudiants\obj\Debug\SuiviEtudiants.csproj.GenerateResource.Cache
+C:\Users\645-279467\Desktop\SuiviEtudiants\SuiviEtudiants\obj\Debug\frmLoggin.g.cs
+C:\Users\645-279467\Desktop\SuiviEtudiants\SuiviEtudiants\obj\Debug\frmNouvelEtudiant.g.cs
+C:\Users\645-279467\Desktop\SuiviEtudiants\SuiviEtudiants\obj\Debug\SuiviEtudiantsUI.g.cs
+C:\Users\645-279467\Desktop\SuiviEtudiants\SuiviEtudiants\obj\Debug\App.g.cs
+C:\Users\645-279467\Desktop\SuiviEtudiants\SuiviEtudiants\obj\Debug\SuiviEtudiants_MarkupCompile.cache
+C:\Users\645-279467\Desktop\SuiviEtudiants\SuiviEtudiants\obj\Debug\SuiviEtudiants_MarkupCompile.lref
+C:\Users\645-279467\Desktop\SuiviEtudiants\SuiviEtudiants\obj\Debug\SuiviEtudiants.exe
+C:\Users\645-279467\Desktop\SuiviEtudiants\SuiviEtudiants\obj\Debug\SuiviEtudiants.pdb
+C:\Users\645-279467\Desktop\SuiviEtudiants\SuiviEtudiants\bin\Debug\SuiviEtudiants.exe.config
+C:\Users\645-279467\Desktop\SuiviEtudiants\SuiviEtudiants\bin\Debug\SuiviEtudiants.exe
+C:\Users\645-279467\Desktop\SuiviEtudiants\SuiviEtudiants\bin\Debug\SuiviEtudiants.pdb
+C:\Users\645-279467\Desktop\SuiviEtudiants\SuiviEtudiants\obj\Debug\frmLoggin.baml
+C:\Users\645-279467\Desktop\SuiviEtudiants\SuiviEtudiants\obj\Debug\frmNouvelEtudiant.baml
+C:\Users\645-279467\Desktop\SuiviEtudiants\SuiviEtudiants\obj\Debug\SuiviEtudiantsUI.baml
+C:\Users\645-279467\Desktop\SuiviEtudiants\SuiviEtudiants\obj\Debug\SuiviEtudiants.g.resources
+C:\Users\645-279467\Desktop\SuiviEtudiants\SuiviEtudiants\obj\Debug\SuiviEtudiants.Properties.Resources.resources
+C:\Users\645-279467\Desktop\SuiviEtudiants\SuiviEtudiants\obj\Debug\SuiviEtudiants.csproj.GenerateResource.cache
+C:\Users\645-279467\Desktop\SuiviEtudiants\SuiviEtudiants\obj\Debug\SuiviEtudiants.csproj.CoreCompileInputs.cache
+C:\Users\645-279467\Desktop\SuiviEtudiants\SuiviEtudiants\obj\Debug\SuiviEtudiants.csprojAssemblyReference.cache

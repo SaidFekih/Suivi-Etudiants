@@ -1,0 +1,98 @@
+﻿<Window x:Class="SuiviEtudiants.SuiviEtudiantsUI"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:SuiviEtudiants"
+        mc:Ignorable="d"
+        Title="Suivi des étudiants - " Height="450" Width="650" WindowStartupLocation="CenterScreen" ResizeMode="CanMinimize">
+    <Grid>
+        <Menu DockPanel.Dock="Top">
+            <MenuItem Header="_Fichier">
+                <MenuItem Header="_Quitter" Click="mnuQuitter_Click" />
+            </MenuItem>
+            <MenuItem Header="_Ajouter">
+                <MenuItem Header="É_tudiant" Click="mnuAjouterEtudiant_Click" />
+            </MenuItem>
+        </Menu>
+        <Label Content="Liste des étudiants" Margin="154,15,242,0" VerticalAlignment="Top" Width="248" Height="25"/>
+        <ComboBox x:Name="ListeEtudiants" HorizontalAlignment="Left"
+                  Margin="154,37,0,0" VerticalAlignment="Top" Width="248" Height="22" ItemsSource="{Binding}" DisplayMemberPath="nomComplet" SelectionChanged="ListeEtudiants_SelectionChanged"></ComboBox>
+        <TabControl HorizontalAlignment="Left" Margin="100,75,0,15" Width="450">
+
+            <TabItem Header="Étudiant">
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="5"/>
+                        <ColumnDefinition Width="100"/>
+                        <ColumnDefinition Width="125"/>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="5"/>
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="15"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="5"/>
+                    </Grid.RowDefinitions>
+                    <Label Content="ID :" Grid.Column="1" Grid.Row="1" HorizontalAlignment="Right" FontSize="11"/>
+                    <Label x:Name="lblID" Grid.Column="2" Grid.Row="1" FontSize="11" BorderBrush="Gray" BorderThickness="1"/>
+                    <Label Content="Prénom :" Grid.Column="1" Grid.Row="2" HorizontalAlignment="Right" FontSize="11"/>
+                    <TextBox x:Name="txtPrenom" Grid.Column="2" Grid.Row="2" Margin="0,2,0,0" FontSize="11" BorderBrush="Gray"/>
+                    <Label Content="Nom :" Grid.Column="1" Grid.Row="3" HorizontalAlignment="Right" FontSize="11"/>
+                    <TextBox x:Name="txtNom" Grid.Column="2" Grid.Row="3" Margin="0,2,0,0" FontSize="11" BorderBrush="Gray"/>
+                    <Label Content="Adresse :" Grid.Column="1" Grid.Row="4" HorizontalAlignment="Right" FontSize="11"/>
+                    <TextBox x:Name="txtAdresse" Grid.Column="2" Grid.Row="4" Margin="0,2,0,0" FontSize="11" BorderBrush="Gray"/>
+                    <Label Content="Ville :" Grid.Column="1" Grid.Row="5" HorizontalAlignment="Right" FontSize="11"/>
+                    <TextBox x:Name="txtVille" Grid.Column="2" Grid.Row="5" Margin="0,2,0,0" FontSize="11" BorderBrush="Gray"/>
+                    <Label Content="Province :" Grid.Column="1" Grid.Row="6" HorizontalAlignment="Right" FontSize="11"/>
+                    <TextBox x:Name="txtProvince" Grid.Column="2" Grid.Row="6" Margin="0,2,0,0" FontSize="11" BorderBrush="Gray"/>
+                    <Label Content="Code postal :" Grid.Column="1" Grid.Row="7" HorizontalAlignment="Right" FontSize="11"/>
+                    <TextBox x:Name="txtCodePostal" Grid.Column="2" Grid.Row="7" Margin="0,2,0,0" FontSize="11" BorderBrush="Gray"/>
+                    <Label Content="Téléphone :" Grid.Column="1" Grid.Row="8" HorizontalAlignment="Right" FontSize="11"/>
+                    <TextBox x:Name="txtTelephone" Grid.Column="2" Grid.Row="8" Margin="0,2,0,0" FontSize="11" BorderBrush="Gray"/>
+                    <Label Content="Instructeur :" Grid.Column="1" Grid.Row="9" HorizontalAlignment="Right" FontSize="11"/>
+                    <Label Grid.Column="2" Grid.Row="9" FontSize="11" BorderBrush="Gray" BorderThickness="1" Margin="0,2,0,0"/>
+                    <Label Content="Programme :" Grid.Column="1" Grid.Row="10" HorizontalAlignment="Right" FontSize="11"/>
+                    <Label Grid.Column="2" Grid.Row="10" Grid.ColumnSpan="2" FontSize="11" BorderBrush="Gray" BorderThickness="1" Margin="0,2,0,0"/>
+                    <Button x:Name="btnEnregistrer" Content="Enregistrer" Grid.Column="2" Margin="108,5,159,-14" Grid.Row="11" Grid.ColumnSpan="2" Click="Enregistrer_Click" />
+                    <Button x:Name="btnSupprimer" Content="Supprimer" Grid.Column="3" Margin="0,5,71,-14" Grid.Row="11" HorizontalAlignment="Right" Width="66" Click="BtnSupprimer_Click"/>
+
+                    <GroupBox Header="Statut" Grid.Column="3" Grid.Row="3" Grid.RowSpan="4" Margin="10,0,50,0">
+                        <StackPanel Orientation="Vertical" Grid.ColumnSpan="2">
+                            <RadioButton x:Name="rbActif" IsChecked="{Binding SEtudiant.EstActif, Mode=TwoWay}" Margin="5" FontSize="11">Actif</RadioButton>
+                            <RadioButton x:Name="rbArret" IsChecked="{Binding SEtudiant.EstArret, Mode=TwoWay}" Margin="5" FontSize="11">Arrêt</RadioButton>
+                            <RadioButton x:Name="rbGradue" IsChecked="{Binding SEtudiant.EstGradue, Mode=TwoWay}" Margin="5" FontSize="11">Gradué</RadioButton>
+                        </StackPanel>
+                    </GroupBox>
+                </Grid>
+            </TabItem>
+            <TabItem Header="Cours">
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="5"/>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="5"/>
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="5"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="5"/>
+                    </Grid.RowDefinitions>
+                    <Label x:Name="lblCours" Grid.Row="1" Grid.Column="1" Height="auto" Margin="15,5,15,5"/>
+                    <DataGrid x:Name="lstCours" Grid.Row="2" Grid.Column="1" Margin="5" ScrollViewer.CanContentScroll="True" ScrollViewer.VerticalScrollBarVisibility="Auto" ScrollViewer.HorizontalScrollBarVisibility="Auto" Height="190"/>
+                </Grid>
+            </TabItem>
+
+        </TabControl>
+    </Grid>
+</Window>

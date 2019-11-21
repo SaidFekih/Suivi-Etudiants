@@ -1,0 +1,55 @@
+﻿<Window x:Class="SuiviEtudiants.frmNouvelEtudiant"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:SuiviEtudiants"
+        mc:Ignorable="d"
+        Title="frmNouvelEtudiant" Height="375" Width="400" ResizeMode="NoResize" WindowStartupLocation="CenterScreen">
+    <Grid Margin="0,0,2,30">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="5"/>
+            <ColumnDefinition Width="100"/>
+            <ColumnDefinition Width="125"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="5"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="15"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="15"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="5"/>
+        </Grid.RowDefinitions>
+        <Label Content="ID :" Grid.Column="1" Grid.Row="1" HorizontalAlignment="Right" FontSize="11"/>
+        <TextBox x:Name="txtID" Grid.Column="2" Grid.Row="1" FontSize="11" BorderBrush="Gray" BorderThickness="1"/>
+        <Label Content="Prénom :" Grid.Column="1" Grid.Row="2" HorizontalAlignment="Right" FontSize="11"/>
+        <TextBox x:Name="txtPrenom" Grid.Column="2" Grid.Row="2" Margin="0,2,0,0" FontSize="11" BorderBrush="Gray"/>
+        <Label Content="Nom :" Grid.Column="1" Grid.Row="3" HorizontalAlignment="Right" FontSize="11"/>
+        <TextBox x:Name="txtNom" Grid.Column="2" Grid.Row="3" Margin="0,2,0,0" FontSize="11" BorderBrush="Gray"/>
+        <Label Content="Adresse :" Grid.Column="1" Grid.Row="4" HorizontalAlignment="Right" FontSize="11"/>
+        <TextBox x:Name="txtAdresse" Grid.Column="2" Grid.Row="4" Margin="0,2,0,0" FontSize="11" BorderBrush="Gray"/>
+        <Label Content="Ville :" Grid.Column="1" Grid.Row="5" HorizontalAlignment="Right" FontSize="11"/>
+        <TextBox x:Name="txtVille" Grid.Column="2" Grid.Row="5" Margin="0,2,0,0" FontSize="11" BorderBrush="Gray"/>
+        <Label Content="Province :" Grid.Column="1" Grid.Row="6" HorizontalAlignment="Right" FontSize="11"/>
+        <TextBox x:Name="txtProvince" Grid.Column="2" Grid.Row="6" Margin="0,2,0,0" FontSize="11" BorderBrush="Gray"/>
+        <Label Content="Code postal :" Grid.Column="1" Grid.Row="7" HorizontalAlignment="Right" FontSize="11"/>
+        <TextBox x:Name="txtCodePostal" Grid.Column="2" Grid.Row="7" Margin="0,2,0,0" FontSize="11" BorderBrush="Gray"/>
+        <Label Content="Téléphone :" Grid.Column="1" Grid.Row="8" HorizontalAlignment="Right" FontSize="11"/>
+        <TextBox x:Name="txtTelephone" Grid.Column="2" Grid.Row="8" Margin="0,2,0,0" FontSize="11" BorderBrush="Gray"/>
+        <Label Content="Instructeur :" Grid.Column="1" Grid.Row="9" HorizontalAlignment="Right" FontSize="11"/>
+        <ComboBox x:Name="cmbInstructeur" Grid.Column="2" Grid.ColumnSpan="2" Grid.Row="9" FontSize="11" BorderBrush="Gray" BorderThickness="1" Margin="0,2,0,0" SelectionChanged="CmbInstructeur_SelectionChanged"/>
+        <Label Content="Programme :" Grid.Column="1" Grid.Row="10" HorizontalAlignment="Right" FontSize="11"/>
+        <ComboBox x:Name="cmbProgramme" Grid.Column="2" Grid.ColumnSpan="2" Grid.Row="10" FontSize="11" BorderBrush="Gray" BorderThickness="1" Margin="0,2,0,0" SelectionChanged="CmbProgramme_SelectionChanged"/>
+        <Button x:Name="btnEnregistrer" Grid.Column="2" Grid.Row="12" Content="Enregistrer" Click="BtnEnregistrer_Click" />
+    </Grid>
+</Window>
